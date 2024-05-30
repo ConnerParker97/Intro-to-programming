@@ -74,4 +74,16 @@ for i in range(3, 305):
     if i % 4 == 0 and i % 7 == 0:
         print(i, "BUZZ")
 
-#
+# Class Exercise 5:
+
+index = 0
+# Increment index by 1
+index += 1
+# index = index + 1
+print('after incrementing:', index)
+
+index += 2
+print('after incrementing:', index)
+
+index -= 1
+print('before decreasing:', index)
