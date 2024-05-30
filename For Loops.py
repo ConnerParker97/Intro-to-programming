@@ -87,3 +87,25 @@ print('after incrementing:', index)
 
 index -= 1
 print('before decreasing:', index)
+
+
+# Exercise 6: Use a while loop to find the sum of All Digits from 1 to 100
+sum = 0
+num = 1
+
+while num < 101:
+    sum = sum + num
+    num = num + 1
+
+print(sum)
+
+# Exercise 7: Create a list of all even numbers between 0 and 100 using a while loop
+even_nums = []
+num = 0
+
+while num < 101:
+    if num % 2 == 0:
+        even_nums.append(num)
+    num += 1
+
+print(even_nums)
