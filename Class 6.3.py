@@ -77,12 +77,24 @@ while count < 100:
 a1 = 1
 d = 3
 n = 1
-terms = []
+ten_terms = []
 
 while n <= 10:
     an = a1 + (n - 1) * d
-    terms.append(an)
+    ten_terms.append(an)
     n += 1
 
-print("First 10 terms with a1=1 and d=3:", terms)
+print(ten_terms)
 
+# Ex2 Teacher Example
+a1 = 1
+d = 3
+n = 1
+terms = []
+
+while n <= 10:
+    anext = a1 + (n - 1) * d
+    terms.append(anext)
+    n += 1
+
+print(terms)
