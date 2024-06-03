@@ -109,3 +109,27 @@ while num < 101:
     num += 1
 
 print(even_nums)
+
+# Exercise 8: write a while loop that calculates the factorial of a number.
+# Use an input statement to get the number.
+
+number = int(input("Enter a number to find its factorial:"))
+
+factorial = 1
+i = 1
+
+while i <= number:
+    factorial *= i
+    i += 1
+
+print(f"The factorial of {number} is {factorial}")
+
+# Exercise 9: ind the smallest number that is divisible by all integers from 1 to 9 using a while loop
+
+num = 9
+numlist = []
+while num < 9999999:
+    if num%1 == 0 and num%2 == 0 and num%3 == 0 and num%4 == 0 and  num%5 == 0 and num%6 == 0 and num%7 == 0 and num%8 == 0 and num%9 == 0:
+        numlist.append(num)
+    num += 1
+print(min(numlist))
