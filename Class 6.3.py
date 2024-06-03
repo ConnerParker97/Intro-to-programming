@@ -98,3 +98,15 @@ while n <= 10:
     n += 1
 
 print(terms)
+
+# Exercise 3: Use a while loop to generate the first 10 triangular numbers
+
+n = 1
+triangular_nums = []
+
+while n <= 10:
+    Tn = (n * (n + 1)) // 2
+    triangular_nums.append(Tn)
+    n += 1
+
+print(triangular_nums)
